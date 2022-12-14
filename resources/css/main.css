@@ -66,7 +66,7 @@ h1 {
 }
 mark {
   background: #ff0;
-  color: #000;
+  color: #190b14;
 }
 small {
   font-size: 80%;
@@ -1335,7 +1335,7 @@ textarea.w-select {
   }
 }
 .w-lightbox-backdrop {
-  color: #000;
+  color: #190b14;
   cursor: auto;
   font-family: serif;
   font-size: medium;
@@ -2071,7 +2071,7 @@ a {
 }
 
 .body {
-  background-color: #000;
+  background-color: #190b14;
   color: #276ef1;
 }
 
@@ -2118,10 +2118,10 @@ a {
     linear,
     left top,
     left bottom,
-    from(#000),
+    from(#190b14),
     to(transparent)
   );
-  background-image: linear-gradient(180deg, #000, transparent);
+  background-image: linear-gradient(180deg, #190b14, transparent);
 }
 
 .link {
@@ -2200,13 +2200,13 @@ a {
     linear,
     left top,
     left bottom,
-    from(#000),
+    from(#190b14),
     color-stop(61%, rgba(0, 0, 0, 0.89)),
     to(transparent)
   );
   background-image: linear-gradient(
     180deg,
-    #000,
+    #190b14,
     rgba(0, 0, 0, 0.89) 61%,
     transparent
   );
@@ -2221,18 +2221,18 @@ a {
       linear,
       left top,
       left bottom,
-      from(#000),
+      from(#190b14),
       color-stop(15%, transparent),
       color-stop(85%, transparent),
-      to(#000)
+      to(#190b14)
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5e18ca02d27bcffb35046fd3_grid-updated.jpg');
   background-image: linear-gradient(
       180deg,
-      #000,
+      #190b14,
       transparent 15%,
       transparent 85%,
-      #000
+      #190b14
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5e18ca02d27bcffb35046fd3_grid-updated.jpg');
   background-position: 0px 0px, 50% 50%;
@@ -2339,10 +2339,10 @@ a {
     linear,
     left top,
     left bottom,
-    from(#000),
+    from(#190b14),
     to(rgba(0, 0, 0, 0.6))
   );
-  background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(180deg, #190b14, rgba(0, 0, 0, 0.6));
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -2464,10 +2464,15 @@ a {
       left bottom,
       from(transparent),
       color-stop(80%, transparent),
-      to(#000)
+      to(#190b14)
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5ee391382e6ec877682ee2dd_phone-bucket-01.jpg');
-  background-image: linear-gradient(180deg, transparent, transparent 80%, #000),
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      transparent 80%,
+      #190b14
+    ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5ee391382e6ec877682ee2dd_phone-bucket-01.jpg');
   background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
@@ -2504,7 +2509,7 @@ a {
 .text-field {
   margin-top: 0px;
   margin-bottom: 0px;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #151515;
   color: #276ef1;
@@ -2517,7 +2522,7 @@ a {
 .text-field-2 {
   margin-top: 10px;
   margin-bottom: 0px;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #151515;
   color: #276ef1;
@@ -2538,7 +2543,7 @@ a {
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 16px;
   font-weight: 500;
 }
@@ -2549,7 +2554,7 @@ a {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 12px;
   background-color: #276ef1;
   color: #276ef1;
@@ -2560,7 +2565,7 @@ a {
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
-  color: #000;
+  color: #190b14;
 }
 
 .error-message {
@@ -2653,7 +2658,7 @@ a {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #1b1b1b;
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
@@ -2699,7 +2704,7 @@ a {
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 12px;
   font-weight: 400;
 }
@@ -2713,7 +2718,7 @@ a {
 }
 
 .success-message-2 {
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .text-block-6 {
@@ -2820,10 +2825,15 @@ a {
       left bottom,
       from(transparent),
       color-stop(80%, transparent),
-      to(#000)
+      to(#190b14)
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5eecfa3235ddb62dcd127fe3_hand-phone-bucket-03.jpg');
-  background-image: linear-gradient(180deg, transparent, transparent 80%, #000),
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      transparent 80%,
+      #190b14
+    ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5eecfa3235ddb62dcd127fe3_hand-phone-bucket-03.jpg');
   background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
@@ -2953,10 +2963,15 @@ a {
       left bottom,
       from(transparent),
       color-stop(78%, transparent),
-      to(#000)
+      to(#190b14)
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5ed2eb70a553da0191e267df_hand-phone-bucket-05.jpg');
-  background-image: linear-gradient(180deg, transparent, transparent 78%, #000),
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      transparent 78%,
+      #190b14
+    ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5ed2eb70a553da0191e267df_hand-phone-bucket-05.jpg');
   background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
@@ -2971,7 +2986,7 @@ a {
   padding-right: 0px;
   border-style: none;
   border-width: 1px 10px 1px 1px;
-  border-color: #000 rgba(21, 21, 21, 0) #000 #000;
+  border-color: #190b14 rgba(21, 21, 21, 0) #190b14 #190b14;
   border-radius: 8px;
   background-color: #151515;
   color: hsla(0, 0%, 100%, 0.5);
@@ -3177,18 +3192,18 @@ a {
       linear,
       left top,
       left bottom,
-      from(#000),
+      from(#190b14),
       color-stop(15%, transparent),
       color-stop(57%, transparent),
-      to(#000)
+      to(#190b14)
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5eecfa1451ef1780afe7d940_grid-v5.jpg');
   background-image: linear-gradient(
       180deg,
-      #000,
+      #190b14,
       transparent 15%,
       transparent 57%,
-      #000
+      #190b14
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5eecfa1451ef1780afe7d940_grid-v5.jpg');
   background-position: 0px 0px, 50% 50%;
@@ -3214,7 +3229,7 @@ a {
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 16px;
   font-weight: 400;
 }
@@ -3267,7 +3282,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .button-4 {
@@ -3296,7 +3311,7 @@ a {
   border-radius: 8px;
   background-color: #276ef1;
   font-family: 'Fa solid 900', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 16px;
 }
 
@@ -4105,10 +4120,15 @@ a {
       left bottom,
       from(transparent),
       color-stop(80%, transparent),
-      to(#000)
+      to(#190b14)
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5eed46e05e4d80cc66a27048_figma-01.jpg');
-  background-image: linear-gradient(180deg, transparent, transparent 80%, #000),
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      transparent 80%,
+      #190b14
+    ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5eed46e05e4d80cc66a27048_figma-01.jpg');
   background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
@@ -4124,7 +4144,7 @@ a {
   min-height: 182px;
   margin-top: 0px;
   margin-bottom: 0px;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #151515;
   color: #276ef1;
@@ -4271,7 +4291,7 @@ a {
 .checkbox {
   width: 24px;
   height: 24px;
-  border: 0px none #000;
+  border: 0px none #190b14;
   border-radius: 8px;
   background-color: #151515;
 }
@@ -4306,7 +4326,7 @@ a {
   margin-left: 0px;
   padding-right: 0px;
   padding-left: 0px;
-  background-color: #000;
+  background-color: #190b14;
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -4327,14 +4347,19 @@ a {
       linear,
       left top,
       left bottom,
-      from(#000),
+      from(#190b14),
       color-stop(12%, transparent),
       to(transparent)
     ),
-    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(86%, transparent), to(#000)),
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(86%, transparent), to(#190b14)),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5eff258bb8a3d26e0590db0a_join-us_BG.jpg');
-  background-image: linear-gradient(180deg, #000, transparent 12%, transparent),
-    linear-gradient(180deg, transparent, transparent 86%, #000),
+  background-image: linear-gradient(
+      180deg,
+      #190b14,
+      transparent 12%,
+      transparent
+    ),
+    linear-gradient(180deg, transparent, transparent 86%, #190b14),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5eff258bb8a3d26e0590db0a_join-us_BG.jpg');
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, cover;
@@ -4460,7 +4485,7 @@ a {
   padding-bottom: 48px;
   border-style: none none solid;
   border-width: 1px;
-  border-color: #000 #000 #212121;
+  border-color: #190b14 #190b14 #212121;
 }
 
 .job-link {
@@ -4603,10 +4628,15 @@ a {
       left bottom,
       from(transparent),
       color-stop(80%, transparent),
-      to(#000)
+      to(#190b14)
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5ed28d27ef82ae7ac17cbbd3_phone-bucket-02-v2.jpg');
-  background-image: linear-gradient(180deg, transparent, transparent 80%, #000),
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      transparent 80%,
+      #190b14
+    ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5ed28d27ef82ae7ac17cbbd3_phone-bucket-02-v2.jpg');
   background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
@@ -4652,7 +4682,7 @@ a {
 }
 
 .body-4 {
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .paragraph-6 {
@@ -4783,10 +4813,15 @@ a {
       left bottom,
       from(transparent),
       color-stop(86%, transparent),
-      to(#000)
+      to(#190b14)
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5ef61aff9d9d1342f79f772d_join-us.png');
-  background-image: linear-gradient(180deg, transparent, transparent 86%, #000),
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      transparent 86%,
+      #190b14
+    ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5ef61aff9d9d1342f79f772d_join-us.png');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -5066,7 +5101,7 @@ a {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #151515;
 }
@@ -5078,7 +5113,7 @@ a {
 .button-6 {
   padding-top: 9px;
   padding-bottom: 9px;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #151515;
 }
@@ -5091,7 +5126,7 @@ a {
 .uploaded-file {
   padding-top: 9px;
   padding-bottom: 9px;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #276ef1;
 }
@@ -5145,7 +5180,7 @@ a {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 12px;
   background-color: #276ef1;
   color: #276ef1;
@@ -5156,7 +5191,7 @@ a {
   min-height: 86px;
   margin-top: 0px;
   margin-bottom: 0px;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #151515;
   color: #276ef1;
@@ -5725,7 +5760,7 @@ a {
   border-radius: 12px;
   background-color: #276ef1;
   font-family: 'Space Grotesk', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 16px;
   font-weight: 400;
 }
@@ -5936,13 +5971,13 @@ a {
       linear,
       right top,
       left top,
-      from(#000),
+      from(#190b14),
       color-stop(9%, transparent)
     ),
-    -webkit-gradient(linear, right top, left top, from(transparent), color-stop(92%, transparent), to(#000)),
+    -webkit-gradient(linear, right top, left top, from(transparent), color-stop(92%, transparent), to(#190b14)),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b81f8e6d8f01_homepage-bucket-03.jpg');
-  background-image: linear-gradient(270deg, #000, transparent 9%),
-    linear-gradient(270deg, transparent, transparent 92%, #000),
+  background-image: linear-gradient(270deg, #190b14, transparent 9%),
+    linear-gradient(270deg, transparent, transparent 92%, #190b14),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b81f8e6d8f01_homepage-bucket-03.jpg');
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, contain;
@@ -6036,7 +6071,7 @@ a {
 .text-field-7 {
   margin-top: 0px;
   margin-bottom: 0px;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #151515;
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
@@ -6246,13 +6281,13 @@ a {
       linear,
       right top,
       left top,
-      from(#000),
+      from(#190b14),
       color-stop(9%, transparent)
     ),
-    -webkit-gradient(linear, right top, left top, from(transparent), color-stop(92%, transparent), to(#000)),
+    -webkit-gradient(linear, right top, left top, from(transparent), color-stop(92%, transparent), to(#190b14)),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b80a436d8f0f_homepage-bucket-02.jpg');
-  background-image: linear-gradient(270deg, #000, transparent 9%),
-    linear-gradient(270deg, transparent, transparent 92%, #000),
+  background-image: linear-gradient(270deg, #190b14, transparent 9%),
+    linear-gradient(270deg, transparent, transparent 92%, #190b14),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b80a436d8f0f_homepage-bucket-02.jpg');
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, contain;
@@ -6346,13 +6381,13 @@ a {
       linear,
       right top,
       left top,
-      from(#000),
+      from(#190b14),
       color-stop(9%, transparent)
     ),
-    -webkit-gradient(linear, right top, left top, from(transparent), color-stop(92%, transparent), to(#000)),
+    -webkit-gradient(linear, right top, left top, from(transparent), color-stop(92%, transparent), to(#190b14)),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b88f5c6d8efa_homepage-bucket-03.jpg');
-  background-image: linear-gradient(270deg, #000, transparent 9%),
-    linear-gradient(270deg, transparent, transparent 92%, #000),
+  background-image: linear-gradient(270deg, #190b14, transparent 9%),
+    linear-gradient(270deg, transparent, transparent 92%, #190b14),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b88f5c6d8efa_homepage-bucket-03.jpg');
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, contain;
@@ -6407,10 +6442,15 @@ a {
       left bottom,
       from(transparent),
       color-stop(66%, transparent),
-      to(#000)
+      to(#190b14)
     ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b83ffb6d8f08_grid-v3.jpg');
-  background-image: linear-gradient(180deg, transparent, transparent 66%, #000),
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      transparent 66%,
+      #190b14
+    ),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b83ffb6d8f08_grid-v3.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -6465,10 +6505,10 @@ a {
     linear,
     left top,
     left bottom,
-    from(#000),
+    from(#190b14),
     to(rgba(0, 0, 0, 0.6))
   );
-  background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(180deg, #190b14, rgba(0, 0, 0, 0.6));
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -6499,7 +6539,7 @@ a {
 .checkbox-2 {
   width: 24px;
   height: 24px;
-  border: 0px none #000;
+  border: 0px none #190b14;
   border-radius: 8px;
   background-color: #151515;
 }
@@ -6597,13 +6637,13 @@ a {
       linear,
       right top,
       left top,
-      from(#000),
+      from(#190b14),
       color-stop(9%, transparent)
     ),
-    -webkit-gradient(linear, right top, left top, from(transparent), color-stop(92%, transparent), to(#000)),
+    -webkit-gradient(linear, right top, left top, from(transparent), color-stop(92%, transparent), to(#190b14)),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b8d76a6d8ef3_homepage-bucket-01.jpg');
-  background-image: linear-gradient(270deg, #000, transparent 9%),
-    linear-gradient(270deg, transparent, transparent 92%, #000),
+  background-image: linear-gradient(270deg, #190b14, transparent 9%),
+    linear-gradient(270deg, transparent, transparent 92%, #190b14),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b8d76a6d8ef3_homepage-bucket-01.jpg');
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, contain;
@@ -6619,7 +6659,7 @@ a {
   min-height: 134px;
   margin-top: 0px;
   margin-bottom: 0px;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #151515;
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
@@ -6653,7 +6693,7 @@ a {
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 16px;
   font-weight: 500;
 }
@@ -6709,10 +6749,10 @@ a {
     linear,
     left top,
     left bottom,
-    from(#000),
+    from(#190b14),
     to(transparent)
   );
-  background-image: linear-gradient(180deg, #000, transparent);
+  background-image: linear-gradient(180deg, #190b14, transparent);
 }
 
 .quote-module-3:hover {
@@ -6722,7 +6762,7 @@ a {
 .text-field-9 {
   margin-top: 10px;
   margin-bottom: 0px;
-  border: 1px none #000;
+  border: 1px none #190b14;
   border-radius: 8px;
   background-color: #151515;
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
@@ -7035,7 +7075,7 @@ a {
   padding-right: 0px;
   border-style: none;
   border-width: 1px 10px 1px 1px;
-  border-color: #000 rgba(21, 21, 21, 0) #000 #000;
+  border-color: #190b14 rgba(21, 21, 21, 0) #190b14 #190b14;
   border-radius: 8px;
   background-color: #151515;
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
@@ -7220,7 +7260,7 @@ a {
 }
 
 .body-5 {
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .header-section {
@@ -7290,7 +7330,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   font-family: 'Fa brands 400', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 14px;
   text-align: center;
 }
@@ -7522,7 +7562,7 @@ a {
 .bold-text-24 {
   display: inline-block;
   font-family: 'Fa solid 900', sans-serif;
-  color: #000;
+  color: #190b14;
 }
 
 .case-img-5 {
@@ -7554,7 +7594,7 @@ a {
 }
 
 .body-6 {
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .image-25 {
@@ -7980,14 +8020,19 @@ a {
       linear,
       left top,
       left bottom,
-      from(#000),
+      from(#190b14),
       color-stop(12%, transparent),
       to(transparent)
     ),
-    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(86%, transparent), to(#000)),
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(86%, transparent), to(#190b14)),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed61d24e5f30f_careers-hero.jpg');
-  background-image: linear-gradient(180deg, #000, transparent 12%, transparent),
-    linear-gradient(180deg, transparent, transparent 86%, #000),
+  background-image: linear-gradient(
+      180deg,
+      #190b14,
+      transparent 12%,
+      transparent
+    ),
+    linear-gradient(180deg, transparent, transparent 86%, #190b14),
     url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed61d24e5f30f_careers-hero.jpg');
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, contain;
@@ -8247,7 +8292,7 @@ a {
 
 .body-7 {
   padding-top: 100px;
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .paragraphhelp-2 {
@@ -8375,7 +8420,7 @@ a {
 }
 
 .body-8 {
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .image-30 {
@@ -8624,7 +8669,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .beta-sign-up-box {
@@ -8671,7 +8716,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .form-3 {
@@ -8698,7 +8743,7 @@ a {
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 16px;
   font-weight: 500;
 }
@@ -8737,7 +8782,7 @@ a {
 }
 
 .body-11 {
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .heading-5 {
@@ -8951,10 +8996,10 @@ a {
   font-family: 'Space Grotesk', sans-serif;
   color: #8cb9b4;
   font-size: 56px;
-  line-height: 62px;
+  line-height: 362px;
   font-weight: 400;
   text-align: center;
-  letter-spacing: -2px;
+  /* letter-spacing: -2px; */
 }
 
 .header-center-1.small {
@@ -8993,7 +9038,7 @@ a {
 .basic-container.sm.sticky {
   position: static;
   top: 0px;
-  min-height: 60vh;
+  min-height: 80vh;
   padding-top: 10vh;
 }
 
@@ -9261,10 +9306,10 @@ a {
     linear,
     left top,
     left bottom,
-    from(#000),
+    from(#190b14),
     to(transparent)
   );
-  background-image: linear-gradient(180deg, #000, transparent);
+  background-image: linear-gradient(180deg, #190b14, transparent);
 }
 
 .quote-block:hover {
@@ -9688,10 +9733,10 @@ a {
     linear,
     left top,
     right top,
-    from(#000),
+    from(#190b14),
     color-stop(44%, transparent)
   );
-  background-image: linear-gradient(90deg, #000, transparent 44%);
+  background-image: linear-gradient(90deg, #190b14, transparent 44%);
 }
 
 .right-arrow {
@@ -9700,10 +9745,10 @@ a {
     linear,
     right top,
     left top,
-    from(#000),
+    from(#190b14),
     color-stop(44%, transparent)
   );
-  background-image: linear-gradient(270deg, #000, transparent 44%);
+  background-image: linear-gradient(270deg, #190b14, transparent 44%);
 }
 
 .using-play-section {
@@ -9834,7 +9879,7 @@ a {
   align-items: center;
   border-radius: 20px;
   background-color: #276ef1;
-  color: #000;
+  color: #190b14;
 }
 
 .title-md {
@@ -9990,7 +10035,7 @@ a {
 .body-12 {
   padding-right: 24px;
   padding-left: 24px;
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .posts {
@@ -10249,13 +10294,13 @@ a {
     linear,
     left bottom,
     left top,
-    from(#000),
+    from(#190b14),
     color-stop(18%, rgba(0, 0, 0, 0.42)),
     color-stop(26%, transparent)
   );
   background-image: linear-gradient(
     0deg,
-    #000,
+    #190b14,
     rgba(0, 0, 0, 0.42) 18%,
     transparent 26%
   );
@@ -10473,7 +10518,7 @@ a {
   width: 100%;
   height: 168px;
   padding-bottom: 0px;
-  background-color: #000;
+  background-color: #190b14;
   background-image: none;
 }
 
@@ -10481,7 +10526,7 @@ a {
   width: 100%;
   height: 300px;
   padding-bottom: 0px;
-  background-color: #000;
+  background-color: #190b14;
   background-image: none;
 }
 
@@ -10779,7 +10824,7 @@ a {
   border-radius: 12px;
   background-color: #276ef1;
   font-family: 'Space Grotesk', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 16px;
   font-weight: 400;
 }
@@ -10814,7 +10859,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .text-span-28 {
@@ -10827,7 +10872,11 @@ a {
 }
 
 .button-9 {
-  background-image: radial-gradient(circle closest-side at 50% 50%, #000, #fff);
+  background-image: radial-gradient(
+    circle closest-side at 50% 50%,
+    #190b14,
+    #fff
+  );
 }
 
 .text-span-30 {
@@ -10850,9 +10899,9 @@ a {
     left top,
     left bottom,
     color-stop(79%, transparent),
-    to(#000)
+    to(#190b14)
   );
-  background-image: linear-gradient(180deg, transparent 79%, #000);
+  background-image: linear-gradient(180deg, transparent 79%, #190b14);
 }
 
 .button---main {
@@ -10881,7 +10930,7 @@ a {
   background-color: rgba(39, 110, 241, 0.8);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
   font-family: 'Space Grotesk', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 14px;
   font-weight: 500;
 }
@@ -11026,10 +11075,10 @@ a {
     linear,
     left bottom,
     left top,
-    color-stop(90%, #000),
+    color-stop(90%, #190b14),
     to(transparent)
   );
-  background-image: linear-gradient(0deg, #000 90%, transparent);
+  background-image: linear-gradient(0deg, #190b14 90%, transparent);
 }
 
 .products.sticky {
@@ -11136,10 +11185,10 @@ a {
 }
 
 .text-block-22 {
-  font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
+  font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 58px;
   line-height: 52px;
   font-weight: 500;
@@ -11302,7 +11351,7 @@ a {
   overflow: hidden;
   margin-top: 0px;
   padding-top: 64px;
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .products-wrapper {
@@ -11573,7 +11622,7 @@ a {
   border-width: 1px;
   border-color: hsla(0, 0%, 100%, 0.2);
   border-radius: 8px;
-  background-color: #000;
+  background-color: #190b14;
   background-image: none;
   cursor: pointer;
 }
@@ -11782,7 +11831,7 @@ a {
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 20px;
   font-weight: 600;
 }
@@ -11927,11 +11976,11 @@ a {
     linear,
     left top,
     left bottom,
-    from(#000),
+    from(#190b14),
     color-stop(50%, transparent),
-    to(#000)
+    to(#190b14)
   );
-  background-image: linear-gradient(180deg, #000, transparent 50%, #000);
+  background-image: linear-gradient(180deg, #190b14, transparent 50%, #190b14);
 }
 
 .spacer-product {
@@ -12005,7 +12054,7 @@ a {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   font-family: 'Space Grotesk', sans-serif;
-  color: #000;
+  color: #190b14;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
@@ -12013,7 +12062,7 @@ a {
 
 .in-line-button:hover {
   background-color: #fff;
-  color: #000;
+  color: #190b14;
 }
 
 .in-line-button.onblack {
@@ -12027,7 +12076,7 @@ a {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  color: #000;
+  color: #190b14;
 }
 
 .link-19 {
@@ -12122,7 +12171,7 @@ a {
   top: 0px;
   z-index: 5;
   display: none;
-  background-color: #000;
+  background-color: #190b14;
 }
 
 .title-container {
@@ -12157,12 +12206,12 @@ a {
     linear,
     left top,
     left bottom,
-    color-stop(87%, rgba(0, 0, 0, 0.6)),
+    color-stop(87%, rgba(25, 11, 20, 0.6)),
     to(transparent)
   );
   background-image: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.6) 87%,
+    rgba(25, 11, 20, 0.6) 87%,
     transparent
   );
 }
@@ -13334,14 +13383,14 @@ a {
         left bottom,
         from(transparent),
         color-stop(53%, transparent),
-        to(#000)
+        to(#190b14)
       ),
       url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b83ffb6d8f08_grid-v3.jpg');
     background-image: linear-gradient(
         180deg,
         transparent,
         transparent 53%,
-        #000
+        #190b14
       ),
       url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8fae155f3b83ffb6d8f08_grid-v3.jpg');
     background-position: 0px 0px, 50% 50%;
@@ -13475,9 +13524,9 @@ a {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    border: 0px solid #000;
+    border: 0px solid #190b14;
     border-radius: 0px;
-    background-color: #000;
+    background-color: #190b14;
     opacity: 0;
   }
 
@@ -13832,14 +13881,14 @@ a {
         left bottom,
         from(transparent),
         color-stop(86%, transparent),
-        to(#000)
+        to(#190b14)
       ),
       url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed61d24e5f30f_careers-hero.jpg');
     background-image: linear-gradient(
         180deg,
         transparent,
         transparent 86%,
-        #000
+        #190b14
       ),
       url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed61d24e5f30f_careers-hero.jpg');
     background-position: 0px 0px, 50% 50%;
@@ -15571,10 +15620,10 @@ a {
       linear,
       left top,
       left bottom,
-      from(#000),
+      from(#190b14),
       to(rgba(0, 0, 0, 0.6))
     );
-    background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.6));
+    background-image: linear-gradient(180deg, #190b14, rgba(0, 0, 0, 0.6));
   }
 
   .quote-copy-3 {
@@ -16553,13 +16602,13 @@ a {
       linear,
       left top,
       left bottom,
-      from(#000),
+      from(#190b14),
       color-stop(50%, rgba(0, 0, 0, 0.5)),
       to(transparent)
     );
     background-image: linear-gradient(
       180deg,
-      #000,
+      #190b14,
       rgba(0, 0, 0, 0.5) 50%,
       transparent
     );
@@ -16635,10 +16684,10 @@ a {
       linear,
       left top,
       left bottom,
-      from(#000),
+      from(#190b14),
       to(rgba(0, 0, 0, 0.6))
     );
-    background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.6));
+    background-image: linear-gradient(180deg, #190b14, rgba(0, 0, 0, 0.6));
   }
 
   .box {
@@ -16686,13 +16735,13 @@ a {
   }
 
   .text-field {
-    border: 1px none #000;
+    border: 1px none #190b14;
     border-radius: 8px;
     background-color: #151515;
   }
 
   .text-field-2 {
-    border: 1px none #000;
+    border: 1px none #190b14;
     background-color: #151515;
   }
 
@@ -16730,7 +16779,7 @@ a {
     align-self: flex-start;
     border-style: solid;
     border-width: 1px;
-    border-color: #000;
+    border-color: #190b14;
     border-radius: 8px;
     background-color: #1b1b1b;
   }
@@ -16810,7 +16859,7 @@ a {
   .dropdowns {
     border-style: none;
     border-width: 1px 12px 1px 1px;
-    border-color: #000 #151515 #000 #000;
+    border-color: #190b14 #151515 #190b14 #190b14;
     background-color: #151515;
     color: hsla(0, 0%, 100%, 0.5);
   }
@@ -17046,7 +17095,7 @@ a {
 
   .text-field-5 {
     margin-top: 10px;
-    border: 1px none #000;
+    border: 1px none #190b14;
     background-color: #151515;
   }
 
@@ -17396,7 +17445,7 @@ a {
   .text-field-6 {
     min-height: 100px;
     margin-top: 10px;
-    border: 1px none #000;
+    border: 1px none #190b14;
     background-color: #151515;
   }
 
@@ -17659,13 +17708,13 @@ a {
       linear,
       left top,
       left bottom,
-      from(#000),
+      from(#190b14),
       color-stop(50%, rgba(0, 0, 0, 0.5)),
       to(transparent)
     );
     background-image: linear-gradient(
       180deg,
-      #000,
+      #190b14,
       rgba(0, 0, 0, 0.5) 50%,
       transparent
     );
@@ -17676,7 +17725,7 @@ a {
   }
 
   .text-field-7 {
-    border: 1px none #000;
+    border: 1px none #190b14;
     border-radius: 8px;
     background-color: #151515;
   }
@@ -17795,10 +17844,10 @@ a {
       linear,
       left top,
       left bottom,
-      from(#000),
+      from(#190b14),
       to(rgba(0, 0, 0, 0.6))
     );
-    background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.6));
+    background-image: linear-gradient(180deg, #190b14, rgba(0, 0, 0, 0.6));
   }
 
   .quote-copy-3 {
@@ -17835,7 +17884,7 @@ a {
 
   .text-field-8 {
     margin-top: 10px;
-    border: 1px none #000;
+    border: 1px none #190b14;
     background-color: #151515;
   }
 
@@ -17863,7 +17912,7 @@ a {
   }
 
   .text-field-9 {
-    border: 1px none #000;
+    border: 1px none #190b14;
     background-color: #151515;
   }
 
@@ -17969,7 +18018,7 @@ a {
   .dropdowns-2 {
     border-style: none;
     border-width: 1px 12px 1px 1px;
-    border-color: #000 #151515 #000 #000;
+    border-color: #190b14 #151515 #190b14 #190b14;
     background-color: #151515;
     color: hsla(0, 0%, 100%, 0.5);
   }
