@@ -10300,20 +10300,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(#190b14),
-    color-stop(18%, rgba(0, 0, 0, 0.42)),
-    color-stop(26%, transparent)
-  );
-  background-image: linear-gradient(
-    0deg,
-    #190b14,
-    rgba(0, 0, 0, 0.42) 18%,
-    transparent 26%
-  );
+  
 }
 
 .featured-text {
