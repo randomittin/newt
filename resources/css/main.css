@@ -181,6 +181,18 @@ th {
   padding: 0;
 }
 
+iframe + .iframeHat {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.iframeHat {
+  margin-top: 0;
+  background-color: rgba(10, 100, 0, 0.5);
+  position: absolute;
+  z-index: 2;
+}
+
 /* ==========================================================================
    Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
    ========================================================================== */
@@ -8024,7 +8036,7 @@ a {
       to(transparent)
     ),
     -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(86%, transparent), to(#190b14)),
-    url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed61d24e5f30f_careers-hero.jpg');
+    url('../careers-hero.png');
   background-image: linear-gradient(
       180deg,
       #190b14,
@@ -8032,7 +8044,7 @@ a {
       transparent
     ),
     linear-gradient(180deg, transparent, transparent 86%, #190b14),
-    url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed61d24e5f30f_careers-hero.jpg');
+    url('../careers-hero.png');
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, contain;
   background-repeat: repeat, repeat, no-repeat;
@@ -8053,7 +8065,7 @@ a {
   margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed622fee5f317_careers-hero-text.png');
+  background-image: url('../careers-hero-text.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -11153,7 +11165,7 @@ a {
   bottom: 5vh;
   z-index: 1;
   margin-top: 0vh;
-  background-color: #874574;
+  background-color: #904374;
   background-image: none;
 }
 
@@ -11837,7 +11849,7 @@ a {
 .community-image {
   width: 24px;
   height: 24px;
-  color: #fff;
+  color: #276ef1;
 }
 
 .text-span-42 {
@@ -13881,14 +13893,14 @@ a {
         color-stop(86%, transparent),
         to(#190b14)
       ),
-      url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed61d24e5f30f_careers-hero.jpg');
+      url('../careers-hero.png');
     background-image: linear-gradient(
         180deg,
         transparent,
         transparent 86%,
         #190b14
       ),
-      url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed61d24e5f30f_careers-hero.jpg');
+      url('../careers-hero.png');
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
@@ -13901,7 +13913,7 @@ a {
     bottom: 0%;
     width: 100%;
     min-height: 70vh;
-    background-image: url('https://global-uploads.webflow.com/5de7dc9925af690aa56c0736/5fc8ff5e312ed622fee5f317_careers-hero-text.png');
+    background-image: url('../careers-hero-text.png');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
