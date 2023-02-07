@@ -297,48 +297,11 @@
         $(window).one("focus", Focus);
       };
     </script>
-<script src="https://apis.google.com/js/api.js"></script>
+
     <script>
-      gapi.load("client:auth2", function () {
-        gapi.client.init({
-          apiKey: "AIzaSyB9PWAakdat8I7DSfFO_Ka33Lp3ekTLaio",
-          clientId: "442814445874-phl7sc4f9ohtj3kn6uk53mkc4nr6b9rl.apps.googleusercontent.com",
-          discoveryDocs: ["https://script.googleapis.com/$discovery/rest?version=v1"],
-          scope: "https://www.googleapis.com/auth/script.external_request",
-        }).then(function () {
-          gapi.auth.authorize({
-            client_id: "442814445874-phl7sc4f9ohtj3kn6uk53mkc4nr6b9rl.apps.googleusercontent.com",
-            scope: "https://www.googleapis.com/auth/script.external_request",
-            immediate: true,
-          });
-        });
-      });
-
-      async function fetchData() {
-        const scriptId = "1059TG9x5JprcdzcWSVbm1YIaE19Ug_AV7AI3Y8LtErVqXYjBL1lbR_G9";
-        const sheetId = "1dB5kkyJQrmQTvwvwW1utPmwa19HzpsN3QG0xoi1udJk";
-
-        const response = await fetch(
-          `https://script.googleapis.com/v1/scripts/${scriptId}:run`,
-          {
-            method: "POST",
-            headers: {
-              Authorization: `Bearer ${await gapi.auth.getToken().access_token}`,
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              function: "fetchDataAsJson",
-              parameters: [sheetId],
-            }),
-          }
-        );
-        const result = await response.json();
-        console.log(JSON.parse(result.response.result));
-      }
-      $(document).ready(function ()
-      {
-        fetchData()
-      });
+      fetch("./resources/job_postings.json")
+  .then(response => response.json())
+  .then(json => console.log(json));
     </script>
 </body>
 
